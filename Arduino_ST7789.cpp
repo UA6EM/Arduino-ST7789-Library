@@ -247,13 +247,13 @@ void Arduino_ST7789::setRotation(uint8_t m) {
   case 0:
      writedata(ST7789_MADCTL_MX | ST7789_MADCTL_MY | ST7789_MADCTL_RGB);
 
-     _xstart = 0;//_colstart;
+     _xstart = _colstart;
      _ystart = 80;//_rowstart;
      break;
   case 1:
      writedata(ST7789_MADCTL_MY | ST7789_MADCTL_MV | ST7789_MADCTL_RGB);
 
-     _ystart = 0;//_colstart;
+     _ystart = _colstart;
      _xstart = 80;//_rowstart;
      break;
   case 2:
