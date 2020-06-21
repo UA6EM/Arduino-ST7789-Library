@@ -244,17 +244,17 @@ void Arduino_ST7789::setRotation(uint8_t m) {
   writecommand(ST7789_MADCTL);
   rotation = m % 4; // can't be higher than 3
   switch (rotation) {
-   case 0:
+  case 0:
      writedata(ST7789_MADCTL_MX | ST7789_MADCTL_MY | ST7789_MADCTL_RGB);
 
      _xstart = _colstart;
-     _ystart = _rowstart;
+     _ystart = 80;//_rowstart;
      break;
-   case 1:
+  case 1:
      writedata(ST7789_MADCTL_MY | ST7789_MADCTL_MV | ST7789_MADCTL_RGB);
 
      _ystart = _colstart;
-     _xstart = _rowstart;
+     _xstart = 80;//_rowstart;
      break;
   case 2:
      writedata(ST7789_MADCTL_RGB);
