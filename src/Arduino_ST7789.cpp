@@ -96,6 +96,9 @@ inline void Arduino_ST7789::spiwrite(uint8_t c) {
       SPI.setClockDivider(21); //4MHz
       SPI.setDataMode(SPI_MODE2);
       SPI.transfer(c);
+#elif defined (ARDUINO_ARHCH_RP2040)
+      SPI.setDataMode(SPI_MODE2);
+      SPI.transfer(c);
 #endif
   } else {
 
