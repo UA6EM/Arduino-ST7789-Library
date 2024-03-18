@@ -1,5 +1,17 @@
-ST7789 KEYWORD1
+#######################################
+# Syntax Coloring Map Arduino_ST7789
+#######################################
 
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Arduino_ST7789  KEYWORD1  Arduino_ST7789
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+Arduino_ST7789 KEYWORD2
 setAddrWindow KEYWORD2
 pushColor  KEYWORD2
 fillScreen  KEYWORD2
@@ -12,3 +24,7 @@ invertDisplay  KEYWORD2
 init  KEYWORD2
 Color565  KEYWORD2
 color565  KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
