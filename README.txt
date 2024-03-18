@@ -1,4 +1,4 @@
-This is a library for ESP8266 and the ST7789 IPS SPI display.
+This is a library for ESP8266, ESP32, RP2040, UNO, NANO and the ST7789 IPS SPI display.
 
 1.Install environment for dstike board  
 https://github.com/spacehuhn/esp8266_deauther/wiki/Installation#compiling-using-arduino-ide
