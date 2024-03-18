@@ -6,7 +6,7 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-Arduino_ST7789  KEYWORD1
+Arduino_ST7789  KEYWORD1  Arduino_ST7789
 
 #######################################
 # Methods and Functions (KEYWORD2)
