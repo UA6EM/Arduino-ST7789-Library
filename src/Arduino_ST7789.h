@@ -21,6 +21,9 @@
 #elif defined(ARDUINO_FEATHER52)
   typedef volatile uint32_t RwReg;
   #define USE_FAST_IO
+#elif defined(ARDUINO_ARCH_RP2040)
+  typedef volatile uint32_t RwReg;
+  #define USE_FAST_IO
 #elif defined(ESP8266)
   #include <pgmspace.h>
 #elif defined(__SAM3X8E__)
