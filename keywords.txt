@@ -1,4 +1,4 @@
-ST7789 KEYWORD1
+Arduino_ST7789 KEYWORD1
 
 setAddrWindow KEYWORD2
 pushColor  KEYWORD2
